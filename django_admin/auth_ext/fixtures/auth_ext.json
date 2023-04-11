@@ -1,0 +1,351 @@
+[
+  {
+    "model": "auth_ext.permission",
+    "pk": 1,
+    "fields": {
+      "code": "lms.sudo",
+      "name": "超级用户权限",
+      "desc": "",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 2,
+    "fields": {
+      "code": "lms.staff",
+      "name": "管理员权限",
+      "desc": "",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 3,
+    "fields": {
+      "code": "lms.is_authenticated",
+      "name": "登录用户权限",
+      "desc": "",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 4,
+    "fields": {
+      "code": "lms.allow_any",
+      "name": "所有人权限",
+      "desc": "",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 5,
+    "fields": {
+      "code": "lms.backdoor",
+      "name": "后门操作",
+      "desc": "",
+      "status": 1
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 6,
+    "fields": {
+      "code": "lms.nop_2",
+      "name": "系统权限预留2",
+      "desc": "",
+      "status": 0
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 7,
+    "fields": {
+      "code": "lms.nop_3",
+      "name": "系统权限预留3",
+      "desc": "",
+      "status": 0
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 8,
+    "fields": {
+      "code": "lms.nop_4",
+      "name": "系统权限预留4",
+      "desc": "",
+      "status": 0
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 9,
+    "fields": {
+      "code": "lms.nop_5",
+      "name": "系统权限预留5",
+      "desc": "",
+      "status": 0
+    }
+  },
+  {
+    "model": "auth_ext.permission",
+    "pk": 10,
+    "fields": {
+      "code": "lms.nop_6",
+      "name": "系统权限预留6",
+      "desc": "",
+      "status": 0
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 1,
+    "fields": {
+      "code": "system:user",
+      "is_deleted": 0,
+      "kind": 0,
+      "name": "普通用户"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 2,
+    "fields": {
+      "code": "logistic:user",
+      "is_deleted": 0,
+      "kind": 0,
+      "name": "物流人员"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 3,
+    "fields": {
+      "code": "system:director",
+      "is_deleted": 0,
+      "kind": 0,
+      "name": "总监"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 11,
+    "fields": {
+      "code": "seller:member",
+      "is_deleted": 0,
+      "kind": 1,
+      "name": "运营专员"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 12,
+    "fields": {
+      "code": "seller:leader",
+      "is_deleted": 0,
+      "kind": 1,
+      "name": "运营组长"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 13,
+    "fields": {
+      "code": "seller:head",
+      "is_deleted": 0,
+      "kind": 1,
+      "name": "运营主管"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 14,
+    "fields": {
+      "code": "seller:manager",
+      "is_deleted": 0,
+      "kind": 1,
+      "name": "运营经理"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 21,
+    "fields": {
+      "code": "service:member",
+      "is_deleted": 0,
+      "kind": 2,
+      "name": "客服专员"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 22,
+    "fields": {
+      "code": "service:leader",
+      "is_deleted": 0,
+      "kind": 2,
+      "name": "客服组长"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 23,
+    "fields": {
+      "code": "service:head",
+      "is_deleted": 0,
+      "kind": 2,
+      "name": "客服主管"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 24,
+    "fields": {
+      "code": "service:manager",
+      "is_deleted": 0,
+      "kind": 2,
+      "name": "客服经理"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 31,
+    "fields": {
+      "code": "warehouse:member",
+      "is_deleted": 0,
+      "kind": 3,
+      "name": "仓储专员"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 32,
+    "fields": {
+      "code": "warehouse:leader",
+      "is_deleted": 0,
+      "kind": 3,
+      "name": "仓储组长"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 33,
+    "fields": {
+      "code": "warehouse:head",
+      "is_deleted": 0,
+      "kind": 3,
+      "name": "仓储主管"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 34,
+    "fields": {
+      "code": "warehouse:manager",
+      "is_deleted": 0,
+      "kind": 3,
+      "name": "仓储经理"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 41,
+    "fields": {
+      "code": "logistic:member",
+      "is_deleted": 0,
+      "kind": 4,
+      "name": "物流专员"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 42,
+    "fields": {
+      "code": "logistic:leader",
+      "is_deleted": 0,
+      "kind": 4,
+      "name": "物流组长"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 43,
+    "fields": {
+      "code": "logistic:head",
+      "is_deleted": 0,
+      "kind": 4,
+      "name": "物流主管"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 44,
+    "fields": {
+      "code": "logistic:manager",
+      "is_deleted": 0,
+      "kind": 4,
+      "name": "物流经理"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 51,
+    "fields": {
+      "code": "finance:member",
+      "is_deleted": 0,
+      "kind": 5,
+      "name": "财务专员"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 52,
+    "fields": {
+      "code": "finance:leader",
+      "is_deleted": 0,
+      "kind": 5,
+      "name": "财务组长"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 53,
+    "fields": {
+      "code": "finance:head",
+      "is_deleted": 0,
+      "kind": 5,
+      "name": "财务主管"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 54,
+    "fields": {
+      "code": "finance:manager",
+      "is_deleted": 0,
+      "kind": 5,
+      "name": "财务经理"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 60,
+    "fields": {
+      "code": "develop:user",
+      "is_deleted": 0,
+      "kind": 6,
+      "name": "研发人员"
+    }
+  },
+  {
+    "model": "auth_ext.role",
+    "pk": 100,
+    "fields": {
+      "code": "system_nop",
+      "is_deleted": 1,
+      "name": "系统角色预留"
+    }
+  }
+]
